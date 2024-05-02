@@ -3,15 +3,15 @@ using System.Threading.Tasks.Dataflow;
 
 namespace ClassProject001;
 
-public class CustomerReservation
+public class CustomerAppointment
 {
     public Customer c {get; set;}
-    public CustomerReservation r {get; set;}   
+    public Appointment a {get; set;}   
 
-    public CustomerReservation(Customer c, CustomerReservation r)
+    public CustomerAppointment(Customer c, Appointment a)
     {
         this.c = c;
-        this.r = r;
+        this.a = a;
     }
 
 
