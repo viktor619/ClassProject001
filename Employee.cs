@@ -9,6 +9,10 @@ public class Employee
     
     public string address{get; set;}
     public string phoneNumber{get; set;}
+    public string username{get; set;}
+    public string password{get; set;}
+
+
     
     public Employee()
     {
@@ -16,5 +20,5 @@ public class Employee
         EmployeeId = increaseID;
     }
 
-
+ 
 }

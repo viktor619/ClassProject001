@@ -4,13 +4,13 @@ namespace ClassProject003;
 
 public class CustomerReservation001
 {
-    public Customer c {get; set;}
-    public Reservation r1 {get; set;}
+    public Customer001 c {get; set;}
+    public Reservation_001 b {get; set;}
 
-    public CustomerReservation001(Customer c, Reservation r1 )
+    public CustomerReservation001(Customer001 c, Reservation_001 b)
     {
         this.c = c;
-        this.r1 = r1;
+        this.b = b;
     }
 
 }

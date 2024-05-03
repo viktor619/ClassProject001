@@ -2,14 +2,14 @@
 
 public class Customers001
 {
-    public List<Customer> customerList {get; set;}
+    public List<Customer001> customerList {get; set;}
 
     public Customers001()
     {
-        customerList = new List<Customer>();
+        customerList = new List<Customer001>();
     }
 
-    public Customer Authenticate(string username, string password)
+    public Customer001 Authenticate(string username, string password)
     {
         var c = customerList.Where(o => (o.Username == username) && (o.Password == password));
 
