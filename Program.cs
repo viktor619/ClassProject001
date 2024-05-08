@@ -1,9 +1,8 @@
-﻿namespace ClassProject001;
+﻿using System.Runtime.CompilerServices;
+
+namespace ClassProject001;
 
 class Program
 {
-    static void Main(string[] args)
-    {
-        
-    }
+    
 }
